@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: postgres
+  password:
+
+development:
+  <<: *default
+  database: instalytic_development
+
+test:
+  <<: *default
+  database: instalytic_test
+
+production:
+  <<: *default
+  database: instalytic_production
