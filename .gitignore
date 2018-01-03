@@ -23,5 +23,4 @@
 .byebug_history
 
 /config/database.yml
-/config/secrets.yml
 /coverage
