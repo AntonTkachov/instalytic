@@ -1,3 +1,5 @@
 - @followers.each do |follower|
   = "This is a follower -- #{follower}"
   %br
+
+= link_to 'Get Access Token', InstagramProxy.code_url

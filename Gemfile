@@ -19,6 +19,7 @@ group :development, :test do
   gem 'byebug'
   gem 'rspec-rails'
   gem 'simplecov', require: false
+  gem 'figaro'
 end
 
 group :development do
